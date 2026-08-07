@@ -21,10 +21,10 @@ skills/emotion-budao/  →  ~/.cursor/skills/emotion-budao/
 ### skills CLI（若已配置）
 
 ```bash
-npx skills add <你的GitHub用户名>/emotion-budao -y -g
+npx skills add emileedeegan202-prog/emotion-budao -y -g
 ```
 
-把仓库推到 GitHub 后，把上面的 `<你的GitHub用户名>` 换成真实路径。
+仓库：https://github.com/emileedeegan202-prog/emotion-budao
 
 ## Usage
 
