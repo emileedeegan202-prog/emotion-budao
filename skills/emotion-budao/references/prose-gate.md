@@ -29,5 +29,5 @@ Scan once: which line sounds like finishing a writing assignment → rewrite; wh
 
 ## Overlap with human-writing
 
-Hard bans above align with common human-writing revision bans.  
-This file is the **in-skill** second pass after optional external human-writing light wash — see [human-writing-handoff.md](human-writing-handoff.md).
+Hard bans above align with human-writing revision bans.  
+After a **full** human-writing pass (not a light wipe), this file is the in-skill second scan — see [human-writing-handoff.md](human-writing-handoff.md).
