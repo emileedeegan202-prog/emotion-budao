@@ -26,3 +26,8 @@ Portable hygiene rules for revised chapter text. No other skill install required
 ## Pass check
 
 Scan once: which line sounds like finishing a writing assignment → rewrite; which line is bigger than its material → cut; where the beat already ended → stop.
+
+## Overlap with human-writing
+
+Hard bans above align with common human-writing revision bans.  
+This file is the **in-skill** second pass after optional external human-writing light wash — see [human-writing-handoff.md](human-writing-handoff.md).

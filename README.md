@@ -1,37 +1,38 @@
 # emotion-budao
 
-独立网文 **情绪补刀** skill（oh-story 后置伴侣，不是 oh-story 分叉）。
-
-| 前期 | 后期 |
-|------|------|
-| [oh-story-claudecode](https://github.com/worldwonderer/oh-story-claudecode) 扫榜/拆文/开书/日更 | **本仓库** `/emotion-budao` 情绪加厚 |
-
-特有手法：微赢再撕 · 代价=物件对比 · 反检查单腔 · 口语反应层 · 删词不并段。
-
-## Install
-
-### Cursor / Claude Code（拷贝）
+独立网文 **情绪补刀** skill。与 **human-writing** 串联；不融合 oh-story。
 
 ```text
-skills/emotion-budao/  →  ~/.cursor/skills/emotion-budao/
-                       或  ~/.claude/skills/emotion-budao/
-                       或  {书}/.cursor/skills/emotion-budao/
+草稿 → human-writing（轻洗）→ emotion-budao（情绪）
 ```
 
-### skills CLI（若已配置）
+| 层 | 工具 |
+|----|------|
+| 表层禁令 / 活人感轻改 | [human-writing](https://github.com/KKKKhazix/human-writing)（需自装） |
+| 微赢再撕 · 代价物件 · 反检查单 · 口语反应 | **本仓库** |
+
+## Install
 
 ```bash
 npx skills add emileedeegan202-prog/emotion-budao -y -g
 ```
+
+另装 human-writing（可选但推荐）：
+
+```bash
+npx skills add KKKKhazix/human-writing -y -g
+```
+
+或拷贝 `skills/emotion-budao/` → `~/.cursor/skills/` / `~/.claude/skills/`。
 
 仓库：https://github.com/emileedeegan202-prog/emotion-budao
 
 ## Usage
 
 ```text
-/写长篇 …（oh-story 日出草稿）
 /emotion-budao 回炉第3章
-/情绪补刀 第6–10章
+# 默认：若已装 human-writing，先轻洗再补情绪
+/情绪补刀 第6章（跳过活人感）
 ```
 
 ## Layout
@@ -39,19 +40,15 @@ npx skills add emileedeegan202-prog/emotion-budao -y -g
 ```text
 skills/emotion-budao/
   SKILL.md
-  README.md
   references/
+    human-writing-handoff.md
     emotion-gate.md
     platform-oral.md
     prose-gate.md
-    load-map.md
-    pipeline.md
-  scripts/
-    count_chars.py
-功能说明.md
-README.md
+    ...
+  scripts/count_chars.py
 ```
 
 ## License
 
-MIT（可自由改、可商用写作工作流）。与 oh-story 许可证独立；请勿声称本包为官方插件。
+MIT。勿声称本包为 oh-story / human-writing 官方插件。

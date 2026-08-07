@@ -9,6 +9,7 @@ Unless user says otherwise:
 
 ## In-chapter edit order
 
+0. Optional **human-writing light** ([human-writing-handoff.md](human-writing-handoff.md)) — bans only, no full rewrite  
 1. Mark six beats mentally (do not dump the checklist into the chapter)  
 2. Opening / build: **soft-win then tear** if the chapter needs ache amplitude  
 3. Patch **cost** as object contrast + **touchable objects**  
@@ -16,6 +17,8 @@ Unless user says otherwise:
 5. Multi-reaction + oral asides ([platform-oral.md](platform-oral.md)); one comedy misread  
 6. Strip checklist slogans (emotion-gate §E)  
 7. Shorten by deleting words → prose gate → count
+
+If step 0 flattened oral heat, steps 2–5 must restore it.
 
 ## Version banner (optional)
 
